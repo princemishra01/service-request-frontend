@@ -1,6 +1,6 @@
 ## Installation
 
-To set up and run the SocioDot application locally, follow these steps:
+To set up and run the Frontend of application locally, follow these steps:
 
 - Clone the repository:
 
@@ -24,6 +24,6 @@ Create a .env file as given in example.env
 
 - Access the application 🌍
 
-Open your web browser and visit http://localhost:5173/ after setting up backend to access the SocioDot
+Open your web browser and visit http://localhost:5173/ after setting up backend.
 
 Please refer to the project's documentation or README files for detailed instructions on setting up and running the application locally.
