@@ -14,7 +14,7 @@ const LoginPage = () => {
               onSuccess={credentialResponse => {
                 localStorage.setItem('token', credentialResponse.credential);
                 setToken(credentialResponse.credential);
-                axios.post('http://localhost:3000/user', {
+                axios.post(`${import.meta.env.VITE_BASE_URL}/user`, {
                   authToken: credentialResponse.credential
                 }).then((response) => {
                   // console.log(response);
